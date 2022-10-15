@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import Drawer from "./Drawer"
 
 export default function Layout({content}) {
   return (
@@ -7,6 +8,8 @@ export default function Layout({content}) {
     <div>
         {content}
     </div>
+    <Drawer />
+
     </>
   )
 }
