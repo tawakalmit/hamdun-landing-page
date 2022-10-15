@@ -3,7 +3,7 @@ import { FiMenu } from "react-icons/fi"
 export default function Drawer() {
   return (
     <>
-    <div className="fixed top-0 drawer drawer-end">
+    <div className="fixed md:hidden top-0 drawer drawer-end">
   <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content">
     <label htmlFor="my-drawer-4" className="absolute top-[1rem] right-[2rem] text-white"><FiMenu size={30} color="white" /></label>
