@@ -11,7 +11,7 @@ export default function Gallery() {
     <>
     <Layout 
     content={
-        <div className="w-10/12 mx-auto mt-10">
+        <div className="w-10/12 mx-auto mt-20">
 
         <h1 className="text-3xl font-bold text-center md:text-left">Gallery</h1>
         <Carousel />
