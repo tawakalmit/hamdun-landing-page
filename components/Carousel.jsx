@@ -9,7 +9,7 @@ export default function Carousel() {
   return (
     <>
     <div className="carousel rounded-box mt-10 w-10/12 h-96 mx-auto">
-    {gambar.map((data) => (<CarouselCard image={data.id} />))}  
+    {gambar.map((data) => (<CarouselCard key={data.id} image={data.id} />))}  
     </div>
     </>
   )
