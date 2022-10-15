@@ -1,6 +1,8 @@
 import { FiMenu } from "react-icons/fi"
+import { useRouter } from "next/router";
 
 export default function Drawer() {
+    const router = useRouter();
   return (
     <>
     <div className="fixed md:hidden top-0 drawer drawer-end">
