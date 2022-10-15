@@ -7,7 +7,7 @@ export default function Jumbotron() {
         <Image src="/asset/logo.png" width={230} height={230} />
         <div className='flex items-center flex-col p-3 md:ml-10 md:p-0'>
             <h1 className='font-semibold text-4xl mb-3 text-center'>Selamat Datang di HAMDUN</h1>
-            <h2 className='font-semibold text-xl md:text-2xl'>Jalin Silaturahmi bersama alumni</h2>
+            <h2 className='font-semibold text-xl md:text-2xl text-center'>Jalin Silaturahmi bersama alumni</h2>
         </div>
     </div>
   )
