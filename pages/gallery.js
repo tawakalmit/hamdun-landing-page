@@ -18,7 +18,7 @@ export default function Gallery() {
 
         <div className="w-11/12 mx-auto flex justify-evenly items-center flex-wrap mt-5">
             
-            {gambar.map((data) => (<div className="m-2"><Image src={`/carousel/carousel (${data.id}).jpeg`} width={500} height={380} className="rounded-xl" /></div>))}
+            {gambar.map((data) => (<div className="m-2"><Image src={`/carousel/carousel (${data.id}).jpeg`} key={data.id} width={500} height={380} className="rounded-xl" /></div>))}
             
         </div>
 
