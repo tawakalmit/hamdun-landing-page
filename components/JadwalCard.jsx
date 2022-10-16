@@ -12,7 +12,7 @@ export default function JadwalCard() {
         </ul>
         <p className="font-bold text-white mt-5">Tempat : Madrosah Mamba'ul Huda Babakan Cikalong</p>
         <p className="text-white mt-5">Mugi urang sadaya diparin sehat wal Afiat & diparin taufiq, tiasa hadir dina waktosna.</p>
-        <div className="w-full flex justify-end mt-5"><p className='text-white text-sm opacity-40'>16/10/2022</p></div>
+        <div className="w-full flex justify-end mt-5"><p className="text-white text-sm opacity-40">16/10/2022</p></div>
     </div>
   )
 }
