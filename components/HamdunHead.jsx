@@ -7,6 +7,7 @@ export default function HamdunHead({title}) {
         <Head>
             <title>{title} | Hamdun</title>
             <link rel="icon" href="/asset/logo.png" />
+            <link rel="manifest" href="/manifest.json" />
         </Head>
     </div>
   )
