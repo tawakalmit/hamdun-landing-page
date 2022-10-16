@@ -1,4 +1,4 @@
-import Carousel from "../components/Carousel"
+
 import Layout from "../components/Layout"
 import { useState } from "react";
 import Image from "next/image";
@@ -14,11 +14,10 @@ export default function Gallery() {
         <div className="w-10/12 mx-auto mt-20">
 
         <h1 className="text-3xl font-bold text-center md:text-left">Gallery</h1>
-        <Carousel />
 
         <div className="w-11/12 mx-auto flex justify-evenly items-center flex-wrap mt-5">
             
-            {gambar.map((data) => (<div className="m-2" key={data.id}><Image src={`/carousel/carousel (${data.id}).jpeg`} width={500} height={380} className="rounded-xl" /></div>))}
+            {gambar.map((data) => (<div className="m-2" key={data.id}><Image src={`/carousel/carousel (${data.id}).jpeg`} width={500} height={380} className="rounded-xl" alt="slider" /></div>))}
             
         </div>
 
