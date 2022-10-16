@@ -17,7 +17,6 @@ export default function Navbar() {
             <FiMenu onClick={(e) => handleshow()} size={30} color="white" className='opacity-0 md:hidden' />
             <div className='w-[30rem] hidden md:flex justify-between'>
                 <p onClick={(e) => router.push('/') } className='text-white hover:opacity-60'>Beranda</p>
-                <p onClick={(e) => router.push('/profil') } className='text-white hover:opacity-60'>Profil</p>
                 <p onClick={(e) => router.push('/jadwal') } className='text-white hover:opacity-60'>Jadwal</p>
                 <p onClick={(e) => router.push('/artikel') } className='text-white hover:opacity-60'>Artikel</p>
                 <p onClick={(e) => router.push('/berita') } className='text-white hover:opacity-60'>Berita</p>

@@ -14,7 +14,6 @@ export default function Drawer() {
     <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
     <div className="menu p-4 overflow-y-auto w-7/12 bg-base-100 text-base-content flex flex-col justify-around    ">
         <p onClick={(e) => router.push('/') } className='text-2xl p-5 active:bg-[#1abc9c]'>Beranda</p>
-        <p onClick={(e) => router.push('/profil') } className='text-2xl p-5 active:bg-[#1abc9c]'>Profil</p>
         <p onClick={(e) => router.push('/jadwal') } className='text-2xl p-5 active:bg-[#1abc9c]'>Jadwal</p>
         <p onClick={(e) => router.push('/artikel') } className='text-2xl p-5 active:bg-[#1abc9c]'>Artikel</p>
         <p onClick={(e) => router.push('/berita') } className='text-2xl p-5 active:bg-[#1abc9c]'>Berita</p>
