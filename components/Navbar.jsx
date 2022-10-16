@@ -1,11 +1,7 @@
-import React, {useState, useEffect} from 'react'
-import Image from 'next/image'
 import { FiMenu } from "react-icons/fi"
 import { useRouter } from 'next/router'
 
 export default function Navbar() {
-
-  const [show, setShow] = useState(false);
 
   const router = useRouter();
 
